@@ -26,9 +26,9 @@ const Home = (props: Props) => {
 
       let studentExists = false;
 
-      students.forEach(async (student: Student) => {
+      for (const student of students) {
         // console.log("Email: ", student.email);
-        if (email === student.email) {
+        if (email === student.email && !student.uniqueId) {
           // setUniqueId(uuidv4());
           studentExists = true;
 
@@ -45,9 +45,9 @@ const Home = (props: Props) => {
           );
           console.log("Data updated on the server:", putResponse.data);
 
-          // setUniqueId(uniqueId);
+          setUniqueId(uniqueId);
         }
-      });
+      }
     } catch (error) {
       console.log("Error fetching or processing data: ", error);
     }

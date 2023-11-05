@@ -14,26 +14,34 @@ const Verify = (props: Props) => {
     setUniqueId(event.target.value);
   };
 
-  const handleSubmit = async (event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+
     try {
       const response = await axios.get("http://localhost:3001/students");
       const students: Student[] = response.data;
 
+      let uniqueIdExists = false;
+
       students.forEach((student: Student) => {
         // console.log("Email: ", student.email);
         if (uniqueId === student.uniqueId) {
-          console.log("It's matched");
-        } else {
-          console.log("Unique Id doesn't exists");
+          console.log("Unique Id exists: ", student.uniqueId);
+          uniqueIdExists = true;
+          return;
         }
       });
+
+      if (!uniqueIdExists) {
+        console.log("Unique Id doesn't exists");
+      }
     } catch (error) {
       console.log("Error fetching or processing data: ", error);
     }
   };
 
   return (
-    <form>
+    <form onSubmit={handleSubmit}>
       <h1>Verify Certificate </h1>
       <input
         type="text"
