@@ -1,0 +1,132 @@
+{
+  "students": [
+    {
+      "name": "Arto Hellas",
+      "number": "040-123456",
+      "id": 1,
+      "email": "john.doe@example.com",
+      "uniqueId": "e08b17c4-5f2e-4326-ad0e-52211dca791c"
+    },
+    {
+      "name": "Ada Lovelace",
+      "number": "39-44-5323523",
+      "id": 2,
+      "email": "alice.smith123@gmail.com"
+    },
+    {
+      "name": "Dan Abramov",
+      "number": "12-43-234345",
+      "id": 3,
+      "email": "support@company.net"
+    },
+    {
+      "name": "Mary Poppendieck",
+      "number": "39-23-6423122",
+      "id": 4,
+      "email": "contact.me@my-website.org"
+    },
+    {
+      "name": "Random Person 1",
+      "number": "123-456789",
+      "id": 5,
+      "email": "admin@myblog.info"
+    },
+    {
+      "name": "Random Person 2",
+      "number": "987-654321",
+      "id": 6,
+      "email": "user12345@hotmail.com"
+    },
+    {
+      "name": "Random Person 3",
+      "number": "555-123456",
+      "id": 7,
+      "email": "testuser@example.co.uk"
+    },
+    {
+      "name": "Random Person 4",
+      "number": "777-888888",
+      "id": 8,
+      "email": "yourname@personal-domain.com"
+    },
+    {
+      "name": "Random Person 5",
+      "number": "111-222222",
+      "id": 9,
+      "email": "webmaster@website.org"
+    },
+    {
+      "name": "Random Person 6",
+      "number": "555-555555",
+      "id": 10,
+      "email": "no-reply@noreply-service.com"
+    },
+    {
+      "name": "Random Person 7",
+      "number": "333-333333",
+      "id": 11,
+      "email": "sales@yourcompany.com"
+    },
+    {
+      "name": "Random Person 8",
+      "number": "888-888888",
+      "id": 12,
+      "email": "contactus@businessco.net"
+    },
+    {
+      "name": "Random Person 9",
+      "number": "999-999999",
+      "id": 13,
+      "email": "marketing.department@email.org"
+    },
+    {
+      "name": "Random Person 10",
+      "number": "123-123123",
+      "id": 14,
+      "email": "customer1234@online-shop.com"
+    },
+    {
+      "name": "Random Person 11",
+      "number": "456-456456",
+      "id": 15,
+      "email": "techsupport@example.support"
+    },
+    {
+      "name": "Random Person 12",
+      "number": "789-789789",
+      "id": 16,
+      "email": "myname123@myportfolio.website"
+    },
+    {
+      "name": "Random Person 13",
+      "number": "111-999999",
+      "id": 17,
+      "email": "info@startupventure.io"
+    },
+    {
+      "name": "Random Person 14",
+      "number": "777-123456",
+      "id": 18,
+      "email": "billing.department@serviceprovider.net"
+    },
+    {
+      "name": "Random Person 15",
+      "number": "555-987654",
+      "id": 19,
+      "email": "social.media@userprofile.com"
+    },
+    {
+      "name": "Random Person 16",
+      "number": "555-333333",
+      "id": 20,
+      "email": "feedback@productreviews.info"
+    },
+    {
+      "name": "Martin Luther",
+      "number": "555-333333",
+      "email": "john.doe@example.com",
+      "id": 21,
+      "uniqueId": "3c956fa7-f2bb-45d1-87d7-cb9c6964a1b5"
+    }
+  ]
+}
